@@ -6,7 +6,7 @@
 /*   By: ZHAOYAN <ZHAOYan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/22 19:29:07 by ZHAOYAN           #+#    #+#             */
-/*   Updated: 2025/05/02 17:28:45 by yanzhao          ###   ########.fr       */
+/*   Updated: 2025/05/05 13:03:45 by yanzhao          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	main(void)
 	if (result)
 		free(result);
 	result = ft_itoa(-0);
-	if (strcmp(result, "-0") == 0)
+	if (strcmp(result, "0") == 0)
 		printf("test 2: OK\n");
 	else
 		printf("test 2: NOK\n");
